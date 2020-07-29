@@ -10,7 +10,7 @@ body
 
 #header-nav
 {
-	box-shadow: 1px 1px 10px black;
+	box-shadow: 1px 1px 5px black;
 	background-color:  #d9e6f2;
 	border:none;
 	border-radius: 0;
@@ -19,7 +19,7 @@ body
 {
 	width:150px;
 	height: 150px;
-	background: url("../images/logo.png") ;
+	background: url("../images/logo-lg.png") ;
 	margin:10px 10px 10px 0px;
 
 }
@@ -91,9 +91,18 @@ color:white;
 	border-radius: 8px;
 	padding:2px;
 }
+.container .jumbotron
+{
+	box-shadow: 0px 0px 20px black;
+}
 
 @media (min-width: 1200px) {
+.container .jumbotron
+{
+	background:url('../images/stock-image-lg.jpg')  no-repeat;
+    height: 650px;
 
+}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -122,6 +131,12 @@ color:white;
 {
 font-size: 130%;
 }
+.container .jumbotron
+{
+	background:url('../images/stock-image-md.jpg')  no-repeat;
+    height: 661px;
+
+}
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-brand {
@@ -143,6 +158,12 @@ font-size: 130%;
     font-size: 1em;
     margin-right: 5px;
   }
+  .container .jumbotron
+{
+	background:url('../images/stock-image-sm.jpg')  no-repeat;
+    height: 524px;
+
+}
 }
 
 @media (max-width: 767px) {
@@ -189,5 +210,14 @@ background-color:  #1a1a1a	;
   #delivery
   {
   		text-align: center;
+  }
+   .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  .container .jumbotron img
+  {
+  	margin: auto;
   }
 }
