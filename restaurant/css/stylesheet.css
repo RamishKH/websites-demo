@@ -96,6 +96,55 @@ color:white;
 	box-shadow: 0px 0px 20px black;
 }
 
+#menu-box,#deal-box
+{
+ 	width: 100%;
+	position: relative;
+	height: 200px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 20px black;
+
+}
+#menu-box
+{
+	background: url("../images/menu.jpg") no-repeat;
+
+}
+#deal-box
+{
+	background: url("../images/specials.jpeg") no-repeat;
+
+}
+#menu-box span,#deal-box span
+{
+	position: absolute;
+	bottom:0;
+	text-align: center;
+text-transform: uppercase;
+
+	width: 100%;
+	background-color: black;
+	color:white;
+	font-size: 120%;
+	opacity: 0.8;
+	text-shadow: 0px 0px 2px #d9e6f2;
+
+	font-weight: bolder;
+}
+#menu-box:hover ,#deal-box:hover
+{
+  box-shadow: 0 1px 5px #000;
+}
+#menu-box:hover span, #deal-box:hover span
+{
+	height: 100%;
+	font-size: 3em;
+	padding-top: 60px;
+	opacity: 0.6;
+	text-shadow: 0px 0px 8px #d9e6f2;
+	
+}
+
 @media (min-width: 1200px) {
 .container .jumbotron
 {
@@ -219,5 +268,9 @@ background-color:  #1a1a1a	;
   .container .jumbotron img
   {
   	margin: auto;
+  }
+   #menu-box, #deal-box {
+    width: 360px;
+    margin: 0 auto 15px;
   }
 }
