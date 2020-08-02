@@ -4,7 +4,6 @@ body
 	font-size: 16px;
 	/*background-color: #ff8080;*/
 	background-color: #f26522;
-	height: 1000px;
 
 }
 
@@ -62,12 +61,22 @@ body
 #nav-list a:hover
 {
 	background-color:   #f79a6e;
-	/*border-radius: 30px;*/
+box-shadow: 0px 0px 4px #000;
+
+}
+#nav-list a:active
+{
+box-shadow: 0px 0px 8px #000;
 }
 #nav-list a:hover i,#nav-list a:hover span
 {
 color:#fff;
 }
+#nav-list ul li:active
+{
+color:black;
+}
+
 #nav-list i
 {
 	margin-bottom: 5px;
@@ -146,10 +155,15 @@ text-transform: uppercase;
 	text-shadow: 0px 0px 8px #d9e6f2;
 	
 }
+#menu-box:active, #deal-box:active ,#map-box:active
+{
+box-shadow: 0px 0px 4px #fff;
+}
 
 .panel-footer
 {
-	background-color:  #ffffcc;
+	background-color:    #ffffcc;
+	
 	margin-top: 20px;
 	padding-top: 20px;
 }
@@ -164,6 +178,7 @@ text-transform: uppercase;
 #address p{
 	line-height: 1.5;
 	font-weight: 300;
+	color:green;
 }
 #time >span ,#address > span
 {
@@ -181,6 +196,93 @@ text-transform: uppercase;
 {
 	margin-top: 10px;
 }
+.menu-cat
+{
+	position: relative;
+	width:200px;
+	height :150px;
+	margin: 0px auto 15px;
+  box-shadow: 0 1px 5px #000;
+
+}
+#menu-head
+{
+	font-weight: bolder;
+}
+#menu-head hr
+{
+width: 25%;
+border:1px #fff solid;
+}
+.menu-cat span
+{
+	position: absolute;
+	right: 0;
+	bottom:0;
+	width:100%;
+	background-color: #fff;
+	opacity: 0.7;
+	font-weight: bolder;
+	border-radius:12px 12px 0 0;
+color:#000;
+font-size: 1.3em;
+text-transform: uppercase;
+	text-align: center;
+}
+.menu-cat:hover
+{
+	box-shadow: 0 0 8px #000;
+}
+.menu-cat:active
+{
+	box-shadow: 0 0 15px #000;
+}
+.single-menu
+{
+	margin-bottom: 15px;
+	margin-top: 10px;
+
+}
+
+.single-menu hr
+{
+	width:70%;
+}
+
+.single-menu .price
+{
+	color:white;
+	font-weight:bold;
+	text-align: right;
+	font-size: 1.3em; 
+}
+.single-menu .price span
+{
+	font-style: italic;
+	font-size: 0.9em; 
+}
+
+.single-image
+{
+	margin:0 auto 0;
+	max-width: 250px;
+	box-shadow: 0 0 10px #000;
+}
+.text-description
+{
+padding-right: 15px;
+}
+.text-description h3
+{
+	margin:0;
+	font-weight: bolder;
+
+}
+.text-description p
+{
+font-style: italic;
+}
+
 
 @media (min-width: 1200px) {
 .container .jumbotron
@@ -328,11 +430,15 @@ width: 50%
   {
   	margin-bottom: 0px;
   }
-  .panel-footer
-  {
-  }
+.single-menu .price , .text-description
+{
+	text-align: center;
 }
-@media(max-width:400px)
+
+
+}
+
+@media(max-width:450px)
 {
   #map-box, #menu-box, #deal-box {
   	width: 260px;
@@ -340,4 +446,12 @@ width: 50%
     background-position: center;
    
    }
+   .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
 }
