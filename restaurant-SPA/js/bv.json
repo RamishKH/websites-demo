@@ -1,0 +1,7 @@
+{"menu_item":[
+	{"short_name":"bv1","name":"7UP","description":"","price":60},
+	{"short_name":"bv2","name":"Coke Cola","description":"","price":60},
+	{"short_name":"bv3","name":"Sprite","description":"","price":60}
+
+],"category":{"short_name":"bv","name":"Beverages","special_instructions":""}
+}

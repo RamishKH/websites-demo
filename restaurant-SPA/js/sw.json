@@ -1,0 +1,8 @@
+{"menu_item":[
+	{"short_name":"sw1","name":"Egg Sandwich","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod","price":200},
+	{"short_name":"sw2","name":"Corn Sandwich","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod","price":350},
+	{"short_name":"sw3","name":"Special Sandwich","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod","price":400},
+	{"short_name":"sw4","name":"Carrot Sandwich","description":"Carrot, maybe meat, and some Herbs","price":250}
+
+],"category":{"short_name":"sw","name":"Sandwich","special_instructions":"No Add-on"}
+}

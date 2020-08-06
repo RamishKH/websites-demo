@@ -1,0 +1,5 @@
+{"menu_item":[
+	{"short_name":"bf1","name":"Beef Classic","description":"Beef patty, Cheese Grilled Onion, Ketchup, and Mustard","price":400},
+	{"short_name":"bf2","name":"Beef doubled","description":"double Beef, Cheese Grilled Onion, Ketchup, special sause, and Mustard","price":450}
+],"category":{"short_name":"bf","name":"Beef","special_instructions":"Extra charges for add-on"}
+}

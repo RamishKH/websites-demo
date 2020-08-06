@@ -1,0 +1,470 @@
+body
+{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	/*background-color: #ff8080;*/
+	background-color: #f26522;
+
+}
+
+#header-nav
+{
+	box-shadow: 1px 1px 5px #000;
+	background-color:    #ffffcc;
+	border:none;
+	border-radius: 0;
+}
+#logo-img
+{
+	width:150px;
+	height: 150px;
+	background: url("../images/logo-lg.png") ;
+	margin:10px 10px 10px 0px;
+
+}
+.navbar-brand a:hover ,.navbar-brand a:focus
+{
+	text-decoration: none;
+}
+.navbar-brand p
+{
+	text-align: right;
+	font-size: 75%;
+	font-weight: 1000;
+	letter-spacing: 5px;
+	background-color: #f26522;
+	color:#fff;
+	width: 105%;
+	margin-left:-5%;
+}
+.navbar-brand h1
+{
+	margin-top: 50px;
+	text-shadow: .5px .5px 2px #000 ;
+	font-size: 2em;
+	line-height: .5;
+	color:#000 ;
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+}
+#nav-list
+{
+	margin-top: 40px;
+}
+#nav-list a
+{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	color:#000;
+}
+#nav-list a:hover
+{
+	background-color:   #f79a6e;
+box-shadow: 0px 0px 4px #000;
+
+}
+#nav-list a:active
+{
+box-shadow: 0px 0px 8px #000;
+}
+#nav-list a:hover i,#nav-list a:hover span
+{
+color:#fff;
+}
+#nav-list ul li:active
+{
+color:black;
+}
+
+#nav-list i
+{
+	margin-bottom: 5px;
+	color:gray;
+}
+#nav-list span
+{
+	font-size: 1.1em;
+}
+#phone
+{
+	margin-top: 20px;
+	line-height: 0.7;
+}
+#phone a
+{
+	padding:5px;
+}
+#phone div
+{
+	border-radius: 8px;
+	padding:2px;
+}
+.container .jumbotron
+{
+	box-shadow: 0px 0px 20px #000;
+}
+
+#menu-box,#deal-box,#map-box
+{
+ 	width: 100%;
+	position: relative;
+	height: 200px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 20px #000;
+
+}
+#menu-box
+{
+	background: url("../images/menu.jpg") no-repeat;
+
+}
+#deal-box
+{
+	background: url("../images/specials.jpeg") no-repeat;
+}
+#menu-box span,#deal-box span , #map-box span
+{
+	position: absolute;
+	bottom:0;
+	text-align: center;
+text-transform: uppercase;
+	width: 100%;
+	background-color: #000;
+	color:#fff;
+	font-size: 120%;
+	opacity: 0.8;
+	text-shadow: 0px 0px 2px #d9e6f2;
+
+	font-weight: bolder;
+}
+#map-box span
+{
+	right:0;
+}
+#menu-box:hover ,#deal-box:hover,#map-box hover
+{
+  box-shadow: 0 1px 5px #000;
+}
+#menu-box:hover span, #deal-box:hover span
+{
+	height: 100%;
+	font-size: 3em;
+	padding-top: 60px;
+	opacity: 0.6;
+	text-shadow: 0px 0px 8px #d9e6f2;
+	
+}
+#menu-box:active, #deal-box:active ,#map-box:active
+{
+box-shadow: 0px 0px 4px #fff;
+}
+
+.panel-footer
+{
+	background-color:    #ffffcc;
+	
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.panel-footer div.row
+{
+	margin-bottom: 20px;
+}
+#time,#address
+{
+	line-height: 2;
+}
+#address p{
+	line-height: 1.5;
+	font-weight: 300;
+	color:green;
+}
+#time >span ,#address > span
+{
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+
+#reviews
+{
+	font-style: italic;
+	font-weight: bold;
+
+}
+#reviews p:nth-child(2)
+{
+	margin-top: 10px;
+}
+.menu-cat
+{
+	position: relative;
+	width:200px;
+	height :150px;
+	margin: 0px auto 15px;
+  box-shadow: 0 1px 5px #000;
+
+}
+#menu-head
+{
+	font-weight: bolder;
+	margin-bottom: 0;
+}
+#menu-head hr
+{
+width: 25%;
+border:1px #fff solid;
+}
+#menu-head + div
+{
+	margin-top: -10px;
+margin-bottom: 20px;
+}
+.menu-cat span
+{
+	position: absolute;
+	right: 0;
+	bottom:0;
+	width:100%;
+	background-color: #fff;
+	opacity: 0.7;
+	font-weight: bolder;
+	border-radius:12px 12px 0 0;
+color:#000;
+font-size: 1.3em;
+text-transform: uppercase;
+	text-align: center;
+}
+.menu-cat:hover
+{
+	box-shadow: 0 0 8px #000;
+}
+.menu-cat:active
+{
+	box-shadow: 0 0 15px #000;
+}
+.single-menu
+{
+	margin-bottom: 15px;
+	margin-top: 10px;
+
+}
+
+.single-menu hr
+{
+	width:70%;
+}
+
+.single-menu .price
+{
+	color:white;
+	font-weight:bold;
+	text-align: right;
+	font-size: 1.3em; 
+}
+.single-menu .price span
+{
+	font-style: italic;
+	font-size: 0.9em; 
+}
+
+.single-image
+{
+	margin:0 auto 0;
+	max-width: 250px;
+	box-shadow: 0 0 10px #000;
+	overflow: hidden;
+
+}
+.single-image img
+{
+	width: 100%;
+}
+
+.text-description
+{
+padding-right: 15px;
+}
+.text-description h3
+{
+	margin:0;
+	font-weight: bolder;
+
+}
+.text-description p
+{
+font-style: italic;
+}
+
+
+@media (min-width: 1200px) {
+.container .jumbotron
+{
+	background:url('../images/stock-image-lg.jpg')  no-repeat;
+    height: 650px;
+
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+#logo-img{	
+	width:100px;
+	height: 100px;
+	background: url("../images/logo-md.png") ;
+	margin:10px 10px 10px 0px;
+}
+.navbar-brand h1
+{
+	margin-top: 30px;
+	font-size: 150%;
+}
+.navbar-brand p
+{
+	width: 108%;
+	margin-left:-8%;
+}
+#nav-list
+{
+	margin-top:25px;
+}
+#nav-list a
+{
+font-size: 130%;
+}
+.container .jumbotron
+{
+	background:url('../images/stock-image-md.jpg')  no-repeat;
+    height: 661px;
+
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+  	height: 10px;
+}
+#nav-list
+{
+	margin-top: 90px;
+	margin-right: 100px;
+}
+#nav-list a
+{
+	margin:10px;
+}
+#collapsable-nav li a {
+    font-size: 1.5em;
+  }
+  #collapsable-nav a i{
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  .container .jumbotron
+{
+	background:url('../images/stock-image-sm.jpg')  no-repeat;
+    height: 524px;
+
+}
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 130px;
+  }
+  .navbar-brand h1 {
+    font-size: 6vw; 
+  }
+  .navbar-brand p { 
+    font-size: 2.5vw;
+  }
+
+  #collapsable-nav li a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a i{
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  .call-btn
+  {
+		text-align: center;
+
+ }
+  .call-btn a:hover,  .call-btn a:active
+  {  	border:#000 1px solid;
+color:#fff;
+background-color: #0d0d0d	;
+  }
+  .call-btn a,.call-btn a:focus
+  {
+  	border:#fff 1px solid;
+	background-color:   #000;
+	font-size: 	40px;
+	color:#fff;
+  }
+  .call-btn a:active
+  {
+background-color:  #1a1a1a	;
+
+  }
+  #delivery
+  {
+  		text-align: center;
+  }
+   .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  .container .jumbotron img
+  {
+  	margin: auto;
+  }
+   #menu-box, #deal-box {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+  #map-box
+  {
+  	width: 360px;
+    margin: 0 auto 15px;
+  }
+  .panel-footer section hr
+  {
+border-color: black;
+width: 50%
+  }
+  .panel-footer section {
+  	text-align: center;
+  	margin-bottom: 30px;
+  }
+  .panel-footer section:nth-child(3)
+  {
+  	margin-bottom: 0px;
+  }
+.single-menu .price , .text-description
+{
+	text-align: center;
+}
+
+
+}
+
+@media(max-width:450px)
+{
+  #map-box, #menu-box, #deal-box {
+  	width: 260px;
+    margin: 0 auto 15px;
+    background-position: center;
+   
+   }
+   .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}

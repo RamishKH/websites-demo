@@ -1,0 +1,6 @@
+[
+	{"id":81,"short_name":"bf","name":"Beef","special_instructions":"Extra charges for add-on" ,"url":"bf.json"},
+	{"id":82,"short_name":"ch","name":"Chicken","special_instructions":"Extra charges for add-on"},
+	{"id":83,"short_name":"bv","name":"beverages","special_instructions":""},
+	{"id":84,"short_name":"sw","name":"sandwich","special_instructions":"No Add-on"}
+]
